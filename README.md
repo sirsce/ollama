@@ -104,8 +104,10 @@ Ollama supports a growing library of models. See the full list at [ollama.com/li
 | Gemma 2 | 9B | 5.5GB |
 | Phi-3 | 3.8B | 2.3GB |
 | Qwen2.5 | 7B | 4.4GB |
+| Qwen2.5 Coder | 7B | 4.4GB |
+| DeepSeek-Coder V2 | 16B | 8.9GB |
 
-> **Personal note:** I've been primarily using `llama3` and `qwen2.5:7b` for local coding assistance. Qwen2.5 has noticeably better performance on code-related tasks in my testing.
+> **Personal note:** I've been primarily using `qwen2.5-coder:7b` and `deepseek-coder-v2` for local coding assistance. Qwen2.5 Coder has noticeably better performance on code-related tasks compared to the base Qwen2.5 model. For general chat I still reach for `llama3`.
 
 ## Contributing
 
