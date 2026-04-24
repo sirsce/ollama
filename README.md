@@ -108,6 +108,8 @@ Ollama supports a growing library of models. See the full list at [ollama.com/li
 | DeepSeek-Coder V2 | 16B | 8.9GB |
 
 > **Personal note:** I've been primarily using `qwen2.5-coder:7b` and `deepseek-coder-v2` for local coding assistance. Qwen2.5 Coder has noticeably better performance on code-related tasks compared to the base Qwen2.5 model. For general chat I still reach for `llama3`.
+>
+> **Tip:** I run Ollama behind a small nginx reverse proxy on my home server so I can reach it from other devices on the LAN without exposing the port directly. See [this gist](https://gist.github.com) for the config I use.
 
 ## Contributing
 
