@@ -103,6 +103,9 @@ Ollama supports a growing library of models. See the full list at [ollama.com/li
 | Mistral | 7B | 4.1GB |
 | Gemma 2 | 9B | 5.5GB |
 | Phi-3 | 3.8B | 2.3GB |
+| Qwen2.5 | 7B | 4.4GB |
+
+> **Personal note:** I've been primarily using `llama3` and `qwen2.5:7b` for local coding assistance. Qwen2.5 has noticeably better performance on code-related tasks in my testing.
 
 ## Contributing
 
