@@ -110,6 +110,8 @@ Ollama supports a growing library of models. See the full list at [ollama.com/li
 > **Personal note:** I've been primarily using `qwen2.5-coder:7b` and `deepseek-coder-v2` for local coding assistance. Qwen2.5 Coder has noticeably better performance on code-related tasks compared to the base Qwen2.5 model. For general chat I still reach for `llama3`.
 >
 > **Tip:** I run Ollama behind a small nginx reverse proxy on my home server so I can reach it from other devices on the LAN without exposing the port directly. See [this gist](https://gist.github.com) for the config I use.
+>
+> **Note:** I also set `OLLAMA_KEEP_ALIVE=24h` in my systemd service so models stay loaded in memory overnight — makes repeated use much snappier without having to wait for the model to reload each time.
 
 ## Contributing
 
@@ -117,4 +119,4 @@ Contributions are welcome! Please read our [contributing guidelines](CONTRIBUTIN
 
 ## License
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+This pr
